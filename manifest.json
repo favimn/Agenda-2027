@@ -1,1 +1,19 @@
-{"name":"Agenda Personal 2027","short_name":"Agenda 2027","description":"Agenda personal Dark Academia","start_url":"./","scope":"./","display":"standalone","background_color":"#171316","theme_color":"#24151b","lang":"es"}
+{
+  "name": "Agenda de Favi · 2027",
+  "short_name": "Agenda Favi",
+  "description": "Agenda personal de Favi · Dark Academia, Lycoris radiata y conocimiento.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#100d12",
+  "theme_color": "#100d12",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
