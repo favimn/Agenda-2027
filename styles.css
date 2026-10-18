@@ -444,3 +444,7 @@ input:focus,textarea:focus,select:focus{border-color:#ff6279!important;box-shado
 .quick-diary-layout .diary-subject{min-height:88px!important;height:88px!important}
 @media(max-width:1100px){.hero{min-height:340px!important}.botanical{min-height:300px!important}.botanical svg{max-height:330px!important}}
 @media(max-width:700px){.hero{min-height:225px!important}.botanical{min-height:175px!important}.botanical svg{width:160px!important;max-height:205px!important}.quick-diary-layout .diary-text{min-height:200px!important;height:200px!important}.quick-diary-layout .diary-subject{min-height:68px!important;height:68px!important}}
+
+.record-delete{margin-top:12px!important;border-color:#9c344a!important;color:#eaa2ad!important;background:#250a13!important;font-size:11px!important;padding:6px 10px!important}
+.record-delete:hover{border-color:#ff6279!important;color:#fff0e6!important;background:#4b0d20!important}
+.empty-note{color:#c3adb5;font:italic 17px/1.7 var(--serif)}
