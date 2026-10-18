@@ -275,3 +275,41 @@ footer{padding:14px 18px 34px;font-size:16px}footer p{font-size:12px}.empty-note
 @media(min-width:1500px){.hero{min-height:390px;grid-template-columns:minmax(0,1fr) 420px}.botanical svg{max-height:385px}main{padding-left:42px;padding-right:42px}}
 @media(max-width:1100px){.app-shell{grid-template-columns:205px minmax(0,1fr)}.hero{grid-template-columns:minmax(0,1fr) 260px;min-height:300px}h1{font-size:clamp(3.4rem,5.5vw,5rem)}.dashboard{grid-template-columns:minmax(0,1fr)}.module-card{min-height:125px}}
 @media(max-width:700px){.app-shell{display:block}.sidebar{position:relative;height:auto;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px}.brand-flower,.brand-name,.brand-year,.sidebar-bottom{grid-column:1/-1}.brand-flower{font-size:30px}.brand-name{font-size:27px}.brand-year{margin:0 0 5px}.side-widget{margin:0;padding:11px}.calendar-widget{grid-row:span 2}.water-widget{align-self:start}.sidebar-bottom{display:none}.masthead{padding:14px 18px 0}.masthead-top{font-size:8px;letter-spacing:.12em}.hero{grid-template-columns:minmax(0,1fr) 112px;gap:8px;min-height:200px;padding:8px 0}h1{font-size:clamp(2.55rem,10vw,4rem);line-height:.93}.hero-subtitle{font-size:17px;margin:12px 0}.latin-motto{font-size:11px;letter-spacing:.08em}.translation{font-size:12px}.botanical svg{width:125px;max-height:180px}.hero-bottom{font-size:11px;display:flex;flex-direction:column;align-items:flex-start;gap:4px}.hero-bottom .motto{font-size:11px}nav{padding:9px 12px;gap:3px}nav button{padding:9px 11px;font-size:11px}main{padding:16px 12px 25px}.dashboard{grid-template-columns:minmax(0,1fr);gap:12px}.dashboard .panel{padding:17px}.dashboard-title{font-size:1.65rem!important}.module-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.module-card{min-height:125px;padding:13px!important}.module-card strong{font-size:19px!important}.saved-panel{grid-column:auto}.quick-diary-layout,.diary-entry-layout,.diary-record{grid-template-columns:minmax(0,1fr)}.dashboard .quick-diary-layout .diary-text{height:220px;min-height:220px}.diary-record-subject{border-left:0;border-top:1px solid #704050;padding:14px 0 0}}
+
+
+/* VISUAL REBUILD — stronger editorial layout and visible botanical artwork */
+.app-shell{grid-template-columns:250px minmax(0,1fr)!important;max-width:1800px}
+.sidebar{width:auto!important;min-width:0!important;display:flex!important;position:relative!important;flex-direction:column!important;align-items:stretch!important;gap:18px!important;padding:30px 22px!important;background:linear-gradient(180deg,#100a11 0%,#1b0c16 55%,#100a11 100%)!important;border-right:1px solid #795044!important}
+.brand-flower{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;height:108px!important;color:#d9a46e!important;font-size:0!important;overflow:visible!important}
+.brand-flower svg{display:block!important;width:100px!important;height:100px!important;filter:drop-shadow(0 0 15px #a12d4a55)!important}
+.brand-name{font:600 29px/1.05 var(--serif)!important;text-align:center!important;color:#f0e4d2!important}
+.brand-year{text-align:center!important;color:#d1ad76!important;letter-spacing:.38em!important;font-size:12px!important}
+.side-widget{width:100%!important;background:linear-gradient(145deg,#21121c,#120b12)!important;border:1px solid #593544!important;border-radius:3px!important;padding:16px!important}
+.widget-heading{font-size:10px!important;letter-spacing:.18em!important;color:#d6b47b!important}
+.digital-clock{font:500 29px/1.3 var(--serif)!important;color:#f0dfc4!important}
+.calendar-month{font:500 19px var(--serif)!important;color:#f0dfc4!important}
+.sidebar-bottom{display:block!important;margin-top:auto!important;text-align:center!important;border-top:1px solid #5a3b43!important;padding-top:20px!important;color:#d6b47b!important}
+.sidebar-bottom p{font:italic 24px var(--serif)!important;margin:8px 0!important}
+.sidebar-bottom small{font:13px/1.8 var(--serif)!important;color:#d7c4c6!important}
+.sidebar-flower{font-size:32px!important;color:#a9364e!important;margin-top:10px!important}
+.hero{grid-template-columns:minmax(0,1fr) minmax(280px,390px)!important;max-width:1250px!important;min-height:380px!important;gap:32px!important}
+.botanical{min-width:0!important;min-height:300px!important;display:flex!important;align-items:center!important;justify-content:center!important;visibility:visible!important;opacity:1!important}
+.botanical svg{display:block!important;visibility:visible!important;opacity:1!important;width:min(100%,390px)!important;height:auto!important;max-height:none!important;overflow:visible!important;filter:drop-shadow(0 10px 28px #0008)!important}
+.hero-copy{max-width:760px!important}
+h1{font-size:clamp(4rem,6.4vw,7rem)!important}
+.hero-subtitle{font-size:28px!important}
+.latin-motto{font-size:18px!important;letter-spacing:.13em!important}
+.translation{font-size:16px!important}
+.hero-bottom{font-size:15px!important;padding:18px 0!important;border-top:1px solid #65434b!important}
+.hero-bottom .motto{font-size:14px!important;color:#e0c89a!important}
+#nav{display:flex!important;flex-wrap:wrap!important;gap:8px!important;padding:16px clamp(22px,3.3vw,54px)!important}
+#nav button{font-size:14px!important;padding:12px 17px!important}
+main{padding-top:32px!important}
+.quick-diary-layout{display:grid!important;grid-template-columns:minmax(0,1.65fr) minmax(240px,.85fr)!important;gap:22px!important;align-items:stretch!important}
+.quick-diary-layout .diary-text{min-height:320px!important;height:320px!important;font-size:17px!important;line-height:1.9!important;padding:20px!important}
+.quick-diary-layout .diary-subject{min-height:90px!important;font:500 23px/1.45 var(--serif)!important;padding:18px!important}
+.diary-entry-layout,.diary-record{display:grid!important;grid-template-columns:minmax(0,1.65fr) minmax(220px,.85fr)!important;gap:20px!important}
+.diary-record-content{font-size:17px!important;line-height:1.9!important}
+.diary-record-subject{font:500 23px/1.4 var(--serif)!important}
+@media(max-width:1000px){.app-shell{grid-template-columns:210px minmax(0,1fr)!important}.hero{grid-template-columns:minmax(0,1fr) 270px!important;min-height:300px!important}h1{font-size:clamp(3.3rem,6vw,5rem)!important}}
+@media(max-width:700px){.app-shell{display:block!important}.sidebar{display:grid!important;grid-template-columns:1fr 1fr!important;flex-direction:initial!important;padding:14px!important;gap:10px!important}.brand-flower,.brand-name,.brand-year,.sidebar-bottom{grid-column:1/-1!important}.brand-flower{height:70px!important}.brand-flower svg{width:65px!important;height:65px!important}.sidebar-bottom{display:none!important}.hero{grid-template-columns:minmax(0,1fr) 120px!important;min-height:210px!important;gap:8px!important}.botanical{min-height:130px!important}.botanical svg{width:120px!important;max-height:190px!important}h1{font-size:clamp(2.5rem,10vw,4rem)!important}.hero-subtitle{font-size:18px!important}.latin-motto{font-size:11px!important}.translation{font-size:12px!important}.quick-diary-layout,.diary-entry-layout,.diary-record{grid-template-columns:minmax(0,1fr)!important}.quick-diary-layout .diary-text{height:220px!important;min-height:220px!important}.diary-record-subject{border-left:0!important;border-top:1px solid #704050!important;padding:14px 0 0!important}}
