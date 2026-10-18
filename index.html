@@ -5,18 +5,26 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#100d12">
 <meta name="description" content="Agenda personal 2027 de Favi. Conocimiento, confianza y existencia.">
-<link rel="icon" type="image/svg+xml" href="./icon.svg">\n<link rel="manifest" href="./manifest.json">
+<link rel="icon" type="image/svg+xml" href="./icon.svg">
+<link rel="manifest" href="./manifest.json">
 <link rel="stylesheet" href="./styles.css">
 <title>Agenda de Favi · 2027</title>
 </head>
 <body>
 <div class="app-shell">
-  <aside class="side-ornament" aria-hidden="true">
-    <span class="side-star">✦</span>
-    <span class="side-line"></span>
-    <span class="side-caption">MMXXVII</span>
-    <span class="side-line"></span>
-    <span class="side-moon">☾</span>
+  <aside class="sidebar">
+    <div class="brand-flower" aria-hidden="true">✿</div>
+    <div class="brand-name">Agenda de Favi</div><div class="brand-year">2 0 2 7</div>
+    <nav id="nav" aria-label="Secciones de la agenda">
+      <button data-tab="dia" class="active"><span class="nav-icon">☼</span><span>Día</span></button>
+      <button data-tab="notas"><span class="nav-icon">♧</span><span>Diario</span></button>
+      <button data-tab="proyectos"><span class="nav-icon">⌘</span><span>Proyectos</span></button>
+      <button data-tab="lecturas"><span class="nav-icon">▤</span><span>Lecturas</span></button>
+      <button data-tab="idiomas"><span class="nav-icon">文</span><span>Idiomas</span></button>
+      <button data-tab="gastos"><span class="nav-icon">€</span><span>Gastos</span></button>
+      <button data-tab="datos"><span class="nav-icon">◇</span><span>Datos</span></button>
+    </nav>
+    <div class="sidebar-bottom"><span>✦</span><p>Florecer a tiempo</p><small>El veneno es confianza;<br>con conocimiento, es virtud.</small><div class="sidebar-flower">✿</div></div>
   </aside>
   <div class="app-main">
     <header class="masthead">
@@ -24,11 +32,11 @@
       <div class="hero">
         <div class="hero-copy">
           <p class="eyebrow"><span class="tiny-star">✦</span> LIFE IS ON <span class="tiny-star">✦</span></p>
-          <h1>Agenda <em>de Favi</em></h1>
+          <h1>Florecer <em>a tiempo</em></h1>
           <p class="hero-subtitle">I am, in the making.</p>
           <div class="rule"><span>✦</span></div>
-          <p class="sanskrit" lang="sa">तमसो मा ज्योतिर्गमय</p>
-          <p class="translation">De la oscuridad, condúceme a la luz.</p>
+          <p class="sanskrit latin-motto" lang="la">FACTA AD ESSE ET EXSISTERE</p>
+          <p class="translation">Hecha para ser y existir.</p>
         </div>
         <div class="botanical" aria-label="Ilustración ornamental de Lycoris radiata roja, luna y estrellas">
           <svg viewBox="0 0 320 330" role="img" aria-labelledby="flower-title">
@@ -61,22 +69,14 @@
             </g>
             <circle cx="160" cy="156" r="4" fill="#e0bd7d"/>
             <path d="M30 282 C78 260 109 276 143 306 M177 306 C211 278 247 270 291 285" fill="none" stroke="#7f6a4e" stroke-width=".8"/>
-            <text x="160" y="326" text-anchor="middle" fill="#aab4cf" font-size="8" letter-spacing="3">✧ FLORECE A TU TIEMPO ✧</text>
+            <text x="160" y="326" text-anchor="middle" fill="#e1bf82" font-size="8" letter-spacing="3">✧ FLORECER A TIEMPO ✧</text>
           </svg>
         </div>
       </div>
       <div class="hero-bottom"><span>Autoconocimiento · Identidad · Existencia</span><span class="motto">El veneno es confianza; con conocimiento, es virtud.</span></div>
     </header>
-    <nav id="nav" aria-label="Secciones de la agenda">
-      <button data-tab="dia" class="active"><span class="nav-icon">☼</span><span>Día</span></button>
-      <button data-tab="notas"><span class="nav-icon">✎</span><span>Diario</span></button>
-      <button data-tab="proyectos"><span class="nav-icon">⌘</span><span>Proyectos</span></button>
-      <button data-tab="lecturas"><span class="nav-icon">▤</span><span>Lecturas</span></button>
-      <button data-tab="idiomas"><span class="nav-icon">文</span><span>Idiomas</span></button>
-      <button data-tab="gastos"><span class="nav-icon">€</span><span>Gastos</span></button>
-      <button data-tab="datos"><span class="nav-icon">◇</span><span>Datos</span></button>
-    </nav>
-    <main><section id="view" aria-live="polite"></section></main>
+    
+    <div class="date-strip"><span>✧</span><span id="today-label">Tu día, a tu tiempo</span><span class="date-strip-note">Hoy también floreces →</span></div><main><section id="view" aria-live="polite"></section></main>
     <footer><span class="footer-star">✦</span> Hecha para crecer, recordar y volver a empezar <span class="footer-star">✦</span><p>Los registros se guardan en este navegador. Exporta una copia desde Datos.</p></footer>
   </div>
 </div>
