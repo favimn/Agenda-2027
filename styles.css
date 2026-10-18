@@ -424,3 +424,23 @@ input,textarea,select,.quick-diary-layout .diary-text,.quick-diary-layout .diary
 .botanical svg g[stroke="#c8a76a"]{stroke:#efbd79!important;stroke-width:1.5!important}
 @media(min-width:1101px){.hero{grid-template-columns:minmax(0,1fr) minmax(340px,430px)!important;min-height:390px!important}.botanical{min-height:370px!important}}
 @media(max-width:700px){.botanical{min-height:180px!important}.botanical svg{width:155px!important}}
+
+/* Edición escarlata · legibilidad, proporción y adaptación */
+:root{--ink:#100309;--wine:#a10f32;--wine-light:#ef3152;--gold:#e6c184;--gold-bright:#ffe0a0;--line:#702438}
+html,body{background-color:#100309!important}
+body{background:radial-gradient(ellipse at 78% 5%,#570b21 0%,#250610 35%,#100309 76%) fixed!important}
+.masthead{background:radial-gradient(ellipse at 78% 48%,#690c25 0%,#300713 35%,#13040a 75%)!important;border-bottom-color:#9c334b!important}
+.hero{min-height:420px!important}
+.botanical{min-height:390px!important}
+.botanical:before{background:radial-gradient(ellipse,#e515452e 0%,#b80c3020 32%,transparent 68%)!important}
+.botanical svg{width:min(100%,455px)!important;max-height:420px!important;filter:drop-shadow(0 0 13px #fa234b55) drop-shadow(0 12px 25px #000b)!important}
+#view>h2{color:#ffe0a0!important}
+.panel,.dashboard .panel{border-color:#713044!important}
+button.primary{background:linear-gradient(135deg,#d51c43,#8d0c2b)!important;border-color:#ff657a!important}
+button.primary:hover{background:linear-gradient(135deg,#f32a50,#a81135)!important}
+#nav button.active{background:linear-gradient(135deg,#64142b,#2c0915)!important;border-color:#f04b66!important}
+input:focus,textarea:focus,select:focus{border-color:#ff6279!important;box-shadow:0 0 0 2px #ff345018!important}
+.quick-diary-layout .diary-text{min-height:260px!important;height:260px!important}
+.quick-diary-layout .diary-subject{min-height:88px!important;height:88px!important}
+@media(max-width:1100px){.hero{min-height:340px!important}.botanical{min-height:300px!important}.botanical svg{max-height:330px!important}}
+@media(max-width:700px){.hero{min-height:225px!important}.botanical{min-height:175px!important}.botanical svg{width:160px!important;max-height:205px!important}.quick-diary-layout .diary-text{min-height:200px!important;height:200px!important}.quick-diary-layout .diary-subject{min-height:68px!important;height:68px!important}}
