@@ -15,15 +15,25 @@
   <aside class="sidebar">
     <div class="brand-flower" aria-hidden="true">✿</div>
     <div class="brand-name">Agenda de Favi</div><div class="brand-year">2 0 2 7</div>
-    <nav id="nav" aria-label="Secciones de la agenda">
-      <button data-tab="dia" class="active"><span class="nav-icon">☼</span><span>Día</span></button>
-      <button data-tab="notas"><span class="nav-icon">♧</span><span>Diario</span></button>
-      <button data-tab="proyectos"><span class="nav-icon">⌘</span><span>Proyectos</span></button>
-      <button data-tab="lecturas"><span class="nav-icon">▤</span><span>Lecturas</span></button>
-      <button data-tab="idiomas"><span class="nav-icon">文</span><span>Idiomas</span></button>
-      <button data-tab="gastos"><span class="nav-icon">€</span><span>Gastos</span></button>
-      <button data-tab="datos"><span class="nav-icon">◇</span><span>Datos</span></button>
-    </nav>
+    <section class="side-widget clock-widget" aria-label="Reloj digital">
+      <div class="widget-heading"><span>HORA LOCAL</span><span class="clock-spark">✦</span></div>
+      <div class="digital-clock" id="digital-clock">00:00:00</div>
+      <div class="clock-date" id="digital-clock-date">Tu tiempo, ahora</div>
+    </section>
+    <section class="side-widget calendar-widget" aria-label="Calendario mensual">
+      <div class="widget-heading"><span>CALENDARIO</span><div class="calendar-controls"><button type="button" id="cal-prev" aria-label="Mes anterior">‹</button><button type="button" id="cal-next" aria-label="Mes siguiente">›</button></div></div>
+      <div class="calendar-month" id="calendar-month"></div>
+      <div class="calendar-grid calendar-weekdays"><span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+      <div class="calendar-grid" id="calendar-days"></div>
+      <div class="calendar-selected" id="calendar-selected">Elige un día</div>
+    </section>
+    <section class="side-widget water-widget" aria-label="Contador de agua">
+      <div class="widget-heading"><span>AGUA DE HOY</span><span class="water-drop">◈</span></div>
+      <div class="water-amount"><strong id="water-total">0</strong><span> / 2000 ml</span></div>
+      <div class="water-track"><span id="water-progress"></span></div>
+      <div class="water-caption" id="water-caption">0 vasos · vaso de 250 ml</div>
+      <div class="water-actions"><button type="button" id="water-minus" aria-label="Quitar 250 mililitros">−</button><button type="button" id="water-plus">+ 250 ml</button></div>
+    </section>
     <div class="sidebar-bottom"><span>✦</span><p>Florecer a tiempo</p><small>El veneno es confianza;<br>con conocimiento, es virtud.</small><div class="sidebar-flower">✿</div></div>
   </aside>
   <div class="app-main">
@@ -76,6 +86,15 @@
       <div class="hero-bottom"><span>Autoconocimiento · Identidad · Existencia</span><span class="motto">El veneno es confianza; con conocimiento, es virtud.</span></div>
     </header>
     
+        <nav id="nav" aria-label="Secciones de la agenda">
+      <button data-tab="dia" class="active"><span class="nav-icon">☼</span><span>Día</span></button>
+      <button data-tab="notas"><span class="nav-icon">♧</span><span>Diario</span></button>
+      <button data-tab="proyectos"><span class="nav-icon">⌘</span><span>Proyectos</span></button>
+      <button data-tab="lecturas"><span class="nav-icon">▤</span><span>Lecturas</span></button>
+      <button data-tab="idiomas"><span class="nav-icon">文</span><span>Idiomas</span></button>
+      <button data-tab="gastos"><span class="nav-icon">€</span><span>Gastos</span></button>
+      <button data-tab="datos"><span class="nav-icon">◇</span><span>Datos</span></button>
+    </nav>
     <div class="date-strip"><span>✧</span><span id="today-label">Tu día, a tu tiempo</span><span class="date-strip-note">Hoy también floreces →</span></div><main><section id="view" aria-live="polite"></section></main>
     <footer><span class="footer-star">✦</span> Hecha para crecer, recordar y volver a empezar <span class="footer-star">✦</span><p>Los registros se guardan en este navegador. Exporta una copia desde Datos.</p></footer>
   </div>
