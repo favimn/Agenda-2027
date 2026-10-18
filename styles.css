@@ -313,3 +313,94 @@ main{padding-top:32px!important}
 .diary-record-subject{font:500 23px/1.4 var(--serif)!important}
 @media(max-width:1000px){.app-shell{grid-template-columns:210px minmax(0,1fr)!important}.hero{grid-template-columns:minmax(0,1fr) 270px!important;min-height:300px!important}h1{font-size:clamp(3.3rem,6vw,5rem)!important}}
 @media(max-width:700px){.app-shell{display:block!important}.sidebar{display:grid!important;grid-template-columns:1fr 1fr!important;flex-direction:initial!important;padding:14px!important;gap:10px!important}.brand-flower,.brand-name,.brand-year,.sidebar-bottom{grid-column:1/-1!important}.brand-flower{height:70px!important}.brand-flower svg{width:65px!important;height:65px!important}.sidebar-bottom{display:none!important}.hero{grid-template-columns:minmax(0,1fr) 120px!important;min-height:210px!important;gap:8px!important}.botanical{min-height:130px!important}.botanical svg{width:120px!important;max-height:190px!important}h1{font-size:clamp(2.5rem,10vw,4rem)!important}.hero-subtitle{font-size:18px!important}.latin-motto{font-size:11px!important}.translation{font-size:12px!important}.quick-diary-layout,.diary-entry-layout,.diary-record{grid-template-columns:minmax(0,1fr)!important}.quick-diary-layout .diary-text{height:220px!important;min-height:220px!important}.diary-record-subject{border-left:0!important;border-top:1px solid #704050!important;padding:14px 0 0!important}}
+
+
+/* COMPLETE ART-DIRECTION PASS — 2027 editorial dark academia */
+:root{--ink:#10070d;--ink-2:#170b13;--panel:#1d1019;--panel-soft:#26131e;--wine:#76223b;--wine-light:#b23d58;--gold:#c9a56c;--gold-bright:#f0d5a0;--paper:#f4e9d8;--muted:#b9a7ad;--line:#593341;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+body{background:radial-gradient(ellipse at 72% 0%,#411426 0,transparent 32%),radial-gradient(ellipse at 12% 32%,#28101c 0,transparent 35%),#10070d;font-size:16px}
+.app-shell{grid-template-columns:270px minmax(0,1fr)!important;max-width:1920px;box-shadow:0 0 100px #0008}
+.sidebar{background:linear-gradient(180deg,#190912,#10070d 45%,#1a0912)!important;border-right:1px solid #68404a!important;padding:28px 20px!important;gap:17px!important}
+.brand-flower{height:118px!important;position:relative!important}
+.brand-flower:before,.brand-flower:after{content:"✧";position:absolute;color:#d3ad72;font-size:19px;top:22px}.brand-flower:before{left:20%}.brand-flower:after{right:20%}
+.brand-flower svg{width:106px!important;height:106px!important;stroke-width:1.5;filter:drop-shadow(0 0 18px #b22d4d88)!important}
+.brand-name{font-size:34px!important;letter-spacing:-.025em!important}
+.brand-year{font-size:13px!important;letter-spacing:.55em!important;margin-bottom:5px!important}
+.side-widget{border:1px solid #67404b!important;background:linear-gradient(145deg,#25111d,#150a12)!important;box-shadow:inset 0 1px #ffffff08,0 12px 24px #0002;border-radius:2px!important;padding:17px!important}
+.widget-heading{font-size:10px!important;letter-spacing:.2em!important}
+.digital-clock{font-size:33px!important;letter-spacing:.02em!important}
+.clock-date,.calendar-selected,.water-caption{font-size:12px!important}
+.calendar-grid span{min-height:28px!important;font-size:12px!important}
+.calendar-grid.calendar-weekdays span{min-height:20px!important}
+.calendar-grid button{min-height:29px!important}
+.water-amount strong{font:600 24px var(--serif)!important}
+.sidebar-bottom{padding-top:22px!important}
+.sidebar-bottom p{font-size:28px!important}
+.sidebar-bottom small{font-size:14px!important}
+.masthead{padding:28px clamp(28px,5vw,84px) 0!important;background:radial-gradient(ellipse at 76% 46%,#4b172c66,transparent 38%),linear-gradient(110deg,#210d18,#10090f 67%,#1b0a13)!important;border-bottom:1px solid #7b4b53!important}
+.masthead:before{width:480px;height:480px;right:-120px;top:-300px;border-color:#d0a86c35!important}
+.masthead:after{width:390px;height:390px;right:-70px;top:-250px;border-color:#d0a86c20!important}
+.masthead-top{font-size:10px!important;letter-spacing:.23em!important;padding-bottom:16px!important}
+.hero{grid-template-columns:minmax(0,1.1fr) minmax(330px,.9fr)!important;max-width:1380px!important;min-height:420px!important;gap:30px!important;padding:24px 0 15px!important}
+.hero-copy{padding:20px 0 24px!important}
+.eyebrow{font-size:11px!important;letter-spacing:.28em!important;margin-bottom:12px!important}
+h1{font-size:clamp(4.5rem,7vw,8rem)!important;line-height:.84!important;letter-spacing:-.06em!important}
+.hero-subtitle{font-size:30px!important;margin:22px 0 19px!important;color:#e6d0c8!important}
+.rule{width:min(360px,88%)!important;margin:22px 0 20px!important}
+.latin-motto{font-size:19px!important;letter-spacing:.2em!important;color:#efd09a!important;margin:12px 0 3px!important}
+.translation{font-size:17px!important;color:#c5adb4!important}
+.botanical{min-height:360px!important;position:relative!important;isolation:isolate!important;overflow:visible!important}
+.botanical:before{content:"";position:absolute;z-index:-1;inset:3% 0 3%;background:radial-gradient(ellipse,#9a254535 0,transparent 64%)!important}
+.botanical:after{content:"";position:absolute;z-index:-1;width:86%;aspect-ratio:1;border:1px solid #c9a56c32;border-radius:50%;box-shadow:0 0 0 22px #c9a56c0a,0 0 0 50px #c9a56c08}
+.botanical svg{width:min(100%,440px)!important;max-height:420px!important;filter:drop-shadow(0 8px 24px #000a) drop-shadow(0 0 10px #b3284a22)!important}
+.botanical-caption{position:absolute;z-index:2;color:#c8a66f;font-size:9px;letter-spacing:.25em;text-align:center;white-space:nowrap}
+.botanical-caption-top{top:8px;left:50%;transform:translateX(-50%)}
+.botanical-caption-bottom{bottom:4px;left:50%;transform:translateX(-50%)}
+.hero-bottom{font-size:14px!important;padding:17px 0 19px!important;border-top:1px solid #79505a!important;color:#cbb8bb!important}
+.hero-bottom .motto{font-size:14px!important;color:#f0d5a0!important}
+#nav{padding:16px clamp(28px,3.3vw,56px)!important;background:#0d070cf5!important;gap:9px!important}
+#nav button{font-size:14px!important;padding:12px 18px!important;border:1px solid transparent!important}
+#nav button.active{border-color:#85505a!important;background:linear-gradient(135deg,#462031,#24111d)!important;box-shadow:inset 0 -2px #d4b17a!important}
+.date-strip{padding:15px clamp(28px,3.3vw,56px)!important;background:#180b13!important;font-size:15px!important}
+main{padding:30px clamp(24px,3vw,54px) 45px!important}
+.dashboard{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr)!important;gap:22px!important}
+.dashboard-column{gap:22px!important}
+.panel,.dashboard .panel{padding:27px!important;border:1px solid #68404d!important;border-radius:3px!important;background:linear-gradient(145deg,#21111bfa,#150b12fa)!important;box-shadow:0 14px 36px #0002,inset 0 1px #ffffff05!important}
+.dashboard-title{font-size:2.35rem!important;margin-bottom:12px!important;line-height:1!important}
+.dashboard-title .dash-icon{font-size:28px!important;color:#d8b477!important}
+.dashboard-subtitle{font-size:16px!important;margin-bottom:20px!important;color:#c0aeb4!important}
+.timer-panel{background:radial-gradient(ellipse at 100% 0%,#8a234033,transparent 50%),linear-gradient(135deg,#2a101d,#170b13)!important;border-color:#87505b!important}
+.timer-heading h2{font-size:2.6rem!important}
+.timer-readout{font-size:clamp(2.8rem,4vw,4.4rem)!important;color:#f0d5a0!important}
+.timer-description{font-size:13px!important}
+.module-grid{gap:14px!important;margin-top:22px!important}
+.module-card{min-height:168px!important;padding:22px!important;border:1px solid #65404b!important;border-radius:2px!important;background:linear-gradient(145deg,#2b1420,#170b13)!important;box-shadow:inset 0 1px #ffffff08!important}
+.module-card:before{border-color:#7e354a!important}
+.module-card strong{font-size:26px!important}
+.module-card small{font-size:14px!important;line-height:1.65!important}
+.module-icon{font-size:27px!important}
+.quick-diary-layout{display:grid!important;grid-template-columns:minmax(0,1.65fr) minmax(220px,.85fr)!important;gap:22px!important;align-items:start!important}
+.quick-diary-content,.quick-diary-side{min-width:0!important;display:flex!important;flex-direction:column!important;gap:9px!important}
+.quick-diary-layout label{font-size:12px!important;letter-spacing:.13em!important;text-transform:uppercase!important;color:#d4b27c!important}
+.quick-diary-layout .diary-text{height:330px!important;min-height:330px!important;font-size:18px!important;line-height:1.9!important;padding:20px!important;resize:vertical!important;background:#10070d!important;border-color:#6b3d4b!important}
+.quick-diary-layout .diary-subject{min-height:110px!important;height:110px!important;font:500 25px/1.45 var(--serif)!important;padding:18px!important;background:#10070d!important;border-color:#6b3d4b!important}
+.diary-side-note{font:italic 16px/1.6 var(--serif)!important;color:#b8a1ac!important}
+.quick-actions{grid-column:1/-1!important;display:flex!important;justify-content:space-between!important;align-items:center!important;gap:12px!important;flex-wrap:wrap!important;margin-top:4px!important}
+.quick-actions button,.actions button{padding:11px 16px!important}
+.note-text{min-height:150px!important;font-size:17px!important;line-height:1.8!important}
+.saved-panel{grid-column:1/-1!important}
+.diary-record{grid-template-columns:minmax(0,1.65fr) minmax(240px,.85fr)!important;gap:24px!important;padding:20px 0!important}
+.diary-record-content{font-size:17px!important;line-height:1.9!important}
+.diary-record-subject{border-left:1px solid #704652!important;padding-left:22px!important;font:500 24px/1.45 var(--serif)!important}
+.diary-record-label{font-size:10px!important;letter-spacing:.2em!important;color:#d5b27a!important}
+input,textarea,select{font-size:16px!important;padding:14px 16px!important;border-radius:2px!important}
+button.primary{background:linear-gradient(135deg,#a52f4a,#68182e)!important;border:1px solid #c35c6b!important;color:#fff0df!important}
+button.primary:hover{filter:brightness(1.15)!important}
+.item{border-bottom:1px solid #583542!important;padding:17px 0!important}
+.item strong{font-size:26px!important}
+.item p{font-size:17px!important;line-height:1.9!important}
+.empty-note{font-size:17px!important;line-height:1.8!important}
+footer{font-size:16px!important;padding:22px 18px 42px!important}
+footer p{font-size:13px!important}
+.ornament-line{font-size:18px!important;color:#d6b171!important}
+@media(max-width:1100px){.app-shell{grid-template-columns:220px minmax(0,1fr)!important}.hero{grid-template-columns:minmax(0,1fr) 280px!important;min-height:320px!important}.botanical{min-height:280px!important}.botanical svg{width:min(100%,310px)!important}.dashboard{grid-template-columns:minmax(0,1fr)!important}.module-card{min-height:140px!important}}
+@media(max-width:700px){.app-shell{display:block!important}.sidebar{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important;padding:14px!important}.brand-flower,.brand-name,.brand-year,.sidebar-bottom{grid-column:1/-1!important}.brand-flower{height:74px!important}.brand-flower svg{width:70px!important;height:70px!important}.brand-name{font-size:28px!important}.side-widget{padding:12px!important}.masthead{padding:14px 18px 0!important}.masthead-top{font-size:8px!important;letter-spacing:.12em!important}.hero{grid-template-columns:minmax(0,1fr) 110px!important;min-height:210px!important;gap:8px!important;padding:8px 0!important}.hero-copy{padding:8px 0 12px!important}h1{font-size:clamp(2.45rem,10vw,4rem)!important;line-height:.9!important}.hero-subtitle{font-size:17px!important;margin:12px 0!important}.latin-motto{font-size:11px!important;letter-spacing:.08em!important}.translation{font-size:12px!important}.botanical{min-height:140px!important}.botanical svg{width:125px!important;max-height:190px!important}.botanical-caption{display:none!important}.hero-bottom{font-size:11px!important;align-items:flex-start!important}.hero-bottom .motto{font-size:11px!important}.quick-diary-layout,.diary-record{grid-template-columns:minmax(0,1fr)!important}.quick-diary-layout .diary-text{height:220px!important;min-height:220px!important}.quick-diary-layout .diary-subject{height:72px!important;min-height:72px!important;font-size:20px!important}.diary-record-subject{border-left:0!important;border-top:1px solid #704652!important;padding:14px 0 0!important}.panel,.dashboard .panel{padding:17px!important}.dashboard-title{font-size:1.9rem!important}.module-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.module-card{min-height:125px!important;padding:13px!important}.module-card strong{font-size:20px!important}}
