@@ -448,3 +448,12 @@ input:focus,textarea:focus,select:focus{border-color:#ff6279!important;box-shado
 .record-delete{margin-top:12px!important;border-color:#9c344a!important;color:#eaa2ad!important;background:#250a13!important;font-size:11px!important;padding:6px 10px!important}
 .record-delete:hover{border-color:#ff6279!important;color:#fff0e6!important;background:#4b0d20!important}
 .empty-note{color:#c3adb5;font:italic 17px/1.7 var(--serif)}
+
+/* Corrección visual: sin tooltip ni lemas superpuestos */
+.botanical svg{cursor:default}
+.botanical svg title{display:none}
+.botanical-caption-bottom{bottom:2px!important}
+.botanical-caption-top{top:8px!important}
+.botanical svg{max-height:390px!important}
+@media(min-width:1101px){.botanical{min-height:370px!important}.botanical svg{max-height:390px!important}}
+@media(max-width:700px){.botanical-caption-bottom{display:none!important}.botanical svg{max-height:195px!important}}
