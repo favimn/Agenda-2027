@@ -65,3 +65,52 @@ footer{text-align:center;color:#8e808c;font:italic 14px var(--serif);padding:0 1
 .active-lap{display:flex;align-items:center;gap:10px;margin-top:16px;padding:12px 13px;background:#100d1290;border:1px solid #47303d}.active-lap>div{display:flex;flex-direction:column;flex:1}.active-lap small{font-size:8px;letter-spacing:.16em;color:var(--silver)}.active-lap strong{font:600 18px var(--serif);color:var(--paper)}.active-lap>span:last-child{font:500 17px var(--serif);color:var(--gold);font-variant-numeric:tabular-nums}.lap-dot{width:7px;height:7px;border-radius:50%;background:#bd4355;box-shadow:0 0 10px #bd435566}
 .lap-history{border-top:1px solid #49323e;margin-top:20px;padding-top:13px}.lap-history h3{font:500 1.25rem var(--serif);color:var(--gold);margin:0 0 5px}.lap-row{display:flex;justify-content:space-between;gap:15px;padding:9px 2px;border-bottom:1px solid #362631;color:#cbbdc2;font-size:12px}.lap-row time{font-variant-numeric:tabular-nums;color:var(--silver);white-space:nowrap}.timer-hint{font:italic 14px var(--serif);color:#9c8d99;margin:15px 0 0}
 @media(max-width:500px){.timer-heading{align-items:flex-start;flex-direction:column;gap:12px}.timer-readout{font-size:2.6rem}.lap-entry{align-items:stretch;flex-direction:column}.lap-entry button{align-self:flex-start}.active-lap{gap:8px}.active-lap strong{font-size:16px}}
+
+/* Rediseño editorial: estructura de la referencia aprobada */
+:root{--ink:#10090d;--ink-2:#170d13;--panel:#1b1017;--panel-soft:#24121b;--wine:#7e1833;--wine-light:#bd3450;--gold:#d7ad67;--gold-bright:#f0d39a;--paper:#f4e7d5;--muted:#bca9ac;--silver:#aeb8d0;--line:#51303b;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+body{background:radial-gradient(ellipse at 25% 0%,#32111e 0,transparent 40%),#10090d}
+.app-shell{grid-template-columns:226px minmax(0,1fr);max-width:none}
+.sidebar{position:sticky;top:0;height:100vh;min-height:680px;overflow:hidden;background:linear-gradient(180deg,#1c0b12,#10090d 65%);border-right:1px solid #6a3b42;padding:25px 10px 18px;display:flex;flex-direction:column;align-items:stretch;z-index:10}
+.brand-flower{font-size:29px;color:#b62843;text-align:center;text-shadow:0 0 20px #a7193d70;margin:2px auto 4px}
+.brand-name{text-align:center;font:500 29px/1.05 var(--serif);color:var(--paper);white-space:nowrap}
+.brand-year{text-align:center;color:var(--gold);font:12px var(--serif);letter-spacing:.36em;margin:10px 0 26px}
+.sidebar nav{position:static;display:flex;flex-direction:column;gap:4px;padding:0;border:0;background:transparent;backdrop-filter:none;overflow:visible}
+.sidebar nav button{justify-content:flex-start;width:100%;padding:12px 15px;font:500 14px var(--serif);letter-spacing:.02em;border-radius:3px;color:#c6b4b5}
+.sidebar nav button.active{background:linear-gradient(90deg,#591326,#31121e);border-color:#81434c;box-shadow:inset 0 -1px #d7ad67}
+.sidebar nav .nav-icon{font-size:19px;width:23px;color:var(--gold)}
+.sidebar-bottom{margin-top:auto;text-align:center;border-top:1px solid #4a2933;padding:18px 7px 0;color:#c6b1b1;font-family:var(--serif)}
+.sidebar-bottom>span{font-size:24px;color:var(--gold)}
+.sidebar-bottom p{margin:7px 0 12px;font-size:15px}
+.sidebar-bottom small{font:italic 13px/1.5 var(--serif);color:#bfaeb3}
+.sidebar-flower{font-size:72px;line-height:1.1;color:#9d1e38;text-shadow:0 0 22px #8e1a3550;margin-top:12px}
+.app-main{min-width:0;display:flex;flex-direction:column}
+.masthead{padding:0 clamp(20px,2.6vw,44px) 0;background:linear-gradient(105deg,#1b0c13 0%,#0f0a0e 70%);border:0}
+.masthead-top{padding:13px 0;border-color:#5a3b35;font-size:9px}
+.hero{max-width:none;min-height:235px;grid-template-columns:minmax(0,1fr) minmax(270px,42%);gap:24px;padding:10px 0 0}
+.hero-copy{padding:15px 0 20px}
+h1{font-size:clamp(2.5rem,4.1vw,4.4rem);line-height:1.02;letter-spacing:-.025em}
+.hero-subtitle{font-size:19px}
+.sanskrit{font-size:17px}
+.botanical svg{width:min(100%,370px);max-height:250px}
+.hero-bottom{padding:9px 0 11px;font-size:13px}
+.date-strip{display:flex;align-items:center;gap:12px;padding:12px clamp(18px,2.5vw,38px);border:1px solid #69404a;border-left:0;border-right:0;color:var(--gold-bright);font:500 16px var(--serif);background:#180c12}
+.date-strip>span:first-child{font-size:20px}.date-strip-note{margin-left:auto;font-size:12px;color:#d4bda4}
+main{width:100%;max-width:1500px;padding:16px clamp(16px,1.7vw,26px) 32px;min-height:300px}
+#view>h2{font-size:2.35rem;margin:0 0 4px;color:#e6c487}
+.panel{background:linear-gradient(135deg,#21151d,#170f16);border-color:#573541;border-radius:4px;box-shadow:0 12px 30px #0002}
+.panel:before{background:linear-gradient(transparent,#8e2540,transparent)}
+.panel h2{color:#dfbb77}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 22px;align-items:start}
+.grid .field{min-width:0;display:flex;flex-direction:column;gap:5px}
+.grid .field>label{margin:0 0 3px}
+.grid .field input,.grid .field textarea,.grid .field select{width:100%}
+.grid .field:has(textarea){grid-row:span 2}
+textarea{min-height:150px;font-size:14px;line-height:1.7}
+input,textarea,select{font-size:14px;background:#100b10;border-color:#4b303b}
+label{font-size:11px;letter-spacing:.07em;color:#cbb9b9}
+button.primary{background:linear-gradient(120deg,#84243d,#5b172d);border-color:#d7ad67}
+.item strong{font-size:21px}
+footer{padding-top:0}
+@media(min-width:1100px){.app-shell{grid-template-columns:226px minmax(0,1fr)}main{padding-left:clamp(18px,1.5vw,28px);padding-right:clamp(18px,1.5vw,28px)}}
+@media(max-width:800px){.app-shell{display:block}.sidebar{position:relative;height:auto;min-height:0;padding:13px 14px;border-right:0;border-bottom:1px solid #6a3b42}.brand-flower{display:none}.brand-name{font-size:25px}.brand-year{margin:5px 0 12px}.sidebar nav{flex-direction:row;overflow-x:auto;padding:0 0 3px;gap:4px}.sidebar nav button{width:auto;flex:0 0 auto;padding:9px 11px;font-size:13px}.sidebar nav .nav-icon{width:auto}.sidebar-bottom{display:none}.hero{grid-template-columns:minmax(0,1fr) 145px;min-height:190px}.botanical svg{width:155px;max-height:195px}.masthead{padding:0 18px}.masthead-top{font-size:8px}.edition{display:none}.hero-bottom{font-size:11px}.date-strip{font-size:14px}.date-strip-note{font-size:10px}.grid{grid-template-columns:1fr}.grid .field:has(textarea){grid-row:auto}main{padding:20px 13px}.panel{padding:16px}}
+@media(max-width:390px){.hero{grid-template-columns:minmax(0,1fr) 105px;gap:0}h1{font-size:2.2rem}.botanical svg{width:115px}.sanskrit{font-size:13px}.translation{font-size:11px}.date-strip-note{display:none}}
