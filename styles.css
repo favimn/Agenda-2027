@@ -404,3 +404,23 @@ footer p{font-size:13px!important}
 .ornament-line{font-size:18px!important;color:#d6b171!important}
 @media(max-width:1100px){.app-shell{grid-template-columns:220px minmax(0,1fr)!important}.hero{grid-template-columns:minmax(0,1fr) 280px!important;min-height:320px!important}.botanical{min-height:280px!important}.botanical svg{width:min(100%,310px)!important}.dashboard{grid-template-columns:minmax(0,1fr)!important}.module-card{min-height:140px!important}}
 @media(max-width:700px){.app-shell{display:block!important}.sidebar{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important;padding:14px!important}.brand-flower,.brand-name,.brand-year,.sidebar-bottom{grid-column:1/-1!important}.brand-flower{height:74px!important}.brand-flower svg{width:70px!important;height:70px!important}.brand-name{font-size:28px!important}.side-widget{padding:12px!important}.masthead{padding:14px 18px 0!important}.masthead-top{font-size:8px!important;letter-spacing:.12em!important}.hero{grid-template-columns:minmax(0,1fr) 110px!important;min-height:210px!important;gap:8px!important;padding:8px 0!important}.hero-copy{padding:8px 0 12px!important}h1{font-size:clamp(2.45rem,10vw,4rem)!important;line-height:.9!important}.hero-subtitle{font-size:17px!important;margin:12px 0!important}.latin-motto{font-size:11px!important;letter-spacing:.08em!important}.translation{font-size:12px!important}.botanical{min-height:140px!important}.botanical svg{width:125px!important;max-height:190px!important}.botanical-caption{display:none!important}.hero-bottom{font-size:11px!important;align-items:flex-start!important}.hero-bottom .motto{font-size:11px!important}.quick-diary-layout,.diary-record{grid-template-columns:minmax(0,1fr)!important}.quick-diary-layout .diary-text{height:220px!important;min-height:220px!important}.quick-diary-layout .diary-subject{height:72px!important;min-height:72px!important;font-size:20px!important}.diary-record-subject{border-left:0!important;border-top:1px solid #704652!important;padding:14px 0 0!important}.panel,.dashboard .panel{padding:17px!important}.dashboard-title{font-size:1.9rem!important}.module-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.module-card{min-height:125px!important;padding:13px!important}.module-card strong{font-size:20px!important}}
+
+
+/* CRIMSON RED + VISIBLE LYcoris botanical correction */
+:root{--bg:#100308;--panel:#1c060d;--panel-2:#260811;--line:#702438;--accent:#e73550;--accent-strong:#fa3856;--gold:#e6c184}
+html,body{background:#100308!important;color:#f2dfd5!important}
+body{background:radial-gradient(ellipse at 82% 8%,#4a091b 0%,#230610 32%,#100308 72%) fixed!important}
+.app-shell{background:transparent!important}
+.sidebar,.side-widget,.panel,.module-card,.timer-panel{background:linear-gradient(145deg,#260913 0%,#17050b 100%)!important;border-color:#74263a!important}
+#nav,.date-strip{background:#16040a!important;border-color:#76243a!important}
+#nav button.active{background:#551226!important;border-color:#d83a54!important;color:#ffe6c0!important}
+button.primary,.water-actions button:last-child{background:linear-gradient(135deg,#c52243,#7d102c)!important;border-color:#f05268!important;color:#fff1e7!important}
+input,textarea,select,.quick-diary-layout .diary-text,.quick-diary-layout .diary-subject{background:#100308!important;border-color:#873047!important;color:#f4e2dc!important}
+.hero{background:radial-gradient(ellipse at 83% 48%,#5b0b20 0%,#2a0712 38%,transparent 70%)!important}
+.botanical{min-height:360px!important;overflow:visible!important}
+.botanical svg{width:min(100%,390px)!important;height:auto!important;overflow:visible!important;filter:drop-shadow(0 0 15px #d51e453d)}
+.botanical svg g[stroke="url(#petal)"]{stroke-width:6.5!important}
+.botanical svg g[stroke="#e04a60"]{stroke:#ff526c!important;stroke-width:2!important}
+.botanical svg g[stroke="#c8a76a"]{stroke:#efbd79!important;stroke-width:1.5!important}
+@media(min-width:1101px){.hero{grid-template-columns:minmax(0,1fr) minmax(340px,430px)!important;min-height:390px!important}.botanical{min-height:370px!important}}
+@media(max-width:700px){.botanical{min-height:180px!important}.botanical svg{width:155px!important}}
